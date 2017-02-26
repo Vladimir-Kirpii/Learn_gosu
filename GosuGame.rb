@@ -64,7 +64,7 @@ puts media_path("Sounds","guinea.mp3")
     super
     self.caption='Hello Animation'
     @background=Gosu::Image.new(self,BACKGROUND,false)
-    @music=Gosu::Song.new(self,media_path("Sounds","guinea.mp3"))
+    @music=Gosu::Song.new(self,media_path("Sounds","bensound-epic.wav"))
     @music.volume=0.5
     @music.play(true)
     @animation=Explosion.load_animation(self)
